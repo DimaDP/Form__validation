@@ -1,8 +1,14 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
+import { Header } from './components/Header';
+import { Card } from './components/Card/Card';
 
 const App = () => (
-  <h1>Form</h1>
+  <div className="App">
+    <Header />
+    <h1 className="heading">Добавление платежной карты</h1>
+    <Card />
+  </div>
 );
 
 export default App;

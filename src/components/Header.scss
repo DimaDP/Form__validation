@@ -1,0 +1,46 @@
+
+.header {
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(90deg, #5A4BE6 0.26%, #73AFF7 47.1%, #93D0D9 99.8%);
+
+  text-align: center;
+  line-height: 100px;
+
+  text-transform: uppercase;
+  font-family: CoreSansG-Regular;
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: 2px;
+  color: #CFE0F4;
+
+  position: relative;
+}
+
+.language-toggler {
+  height: 19px;
+  position: absolute;
+  top: 0;
+  right: 5%;
+}
+
+.language-toggler__link {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  letter-spacing: -0.2px;
+  margin-right: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+.language-toggler__link--active {
+  color: #587BC3;
+}
+
+.language-toggler__link:first-child::after {
+  content: " | ";
+  color: #fff;
+}
+
