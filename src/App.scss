@@ -1,20 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @font-face {
   font-family: CoreSansG-Regular;
-  src: url('/fonts/CoreSansG-Regular.ttf')
+  src: url("./fonts/CoreSansG-Regular.ttf");
 }
 
 @font-face {
   font-family: CoreSansG-Light;
-  src: url('/fonts/CoreSansG-ExtraLight.ttf')
+  src: url("./fonts/CoreSansG-ExtraLight.ttf");
 }
 
 @font-face {
   font-family: CoreSansG-Bold;
-  src: url('/fonts/CoreSansG-Bold.ttf')
+  src: url("./fonts/CoreSansG-Bold.ttf");
 }
 
-html, body, ul, li, h1 {
+html,
+body,
+ul,
+li,
+h1 {
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -26,14 +30,10 @@ a {
 }
 
 .App {
-  // background-color: red;
   text-align: center;
 }
 
 .heading {
-  // position: absolute;
-  // left: calc(50% - 230px);
-   margin-top: 80px;
-
-  font-family: CoreSansG-Light;
+  margin: 80px auto;
+  font-family: CoreSansG-Light, sans-serif;
 }

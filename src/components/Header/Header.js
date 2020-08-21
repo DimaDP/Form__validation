@@ -3,7 +3,7 @@ import './Header.scss';
 
 export const Header = () => (
   <header className="header">
-    <img src="/img/CREDITON.PNG" alt="crediton" />
+    <img src="./img/CREDITON.png" alt="crediton" className="header__logo" />
     <div className="language-toggler">
       <button
         type="button"
