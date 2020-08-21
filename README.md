@@ -7,4 +7,4 @@
    - 3, 5, 6 : Maestro,
    - 1, 2 : American Express,
 
-![](https://i.paste.pics/de2c69121b1e508d4311ae7cc858c3db.png)
+![](https://i.paste.pics/ce827013e1db3c65a51dd08610dfedd6.png)
