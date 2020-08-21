@@ -126,7 +126,7 @@ export const Card = () => {
         <span className="card__error">
           {
             (!isSubmited || isNumberValid) ? ''
-              : (date.length === 0) ? '* Поле обязательно для ввода'
+              : (cardNumber.length === 0) ? '* Поле обязательно для ввода'
                 : '* Введите валидный номер карты'
           }
         </span>
@@ -160,8 +160,9 @@ export const Card = () => {
             }
           </span>
           <span className="card__error--small card__error">
-            {(cvv === '' && isSubmited) ? errorMessage
-              : isCvvValid ? '' : '* CVV невалидный'
+            {
+              (!isSubmited || isCvvValid) ? ''
+                : (cvv.length === 0) ? errorMessage : '* CVV невалидный'
             }
           </span>
         </div>
